@@ -61,7 +61,7 @@ Les problématiques principales identifiées sont :
 ### 1. Analyse des besoins métiers
 Document d’analyse du besoin client Aéroworld.
 
-📄 [Consulter le document](docs/Analyse_des_besoins_metiers_Aeroworld_Mohammed_Abbakar.pdf)
+📄 [Consulter le document](portfolio-aeroworld/docs/Analyse_des_besoins_metiers_Aeroworld_Mohammed_Abbakar.docx)
 
 ---
 
