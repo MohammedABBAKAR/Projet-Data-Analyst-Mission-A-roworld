@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mohammed Abbakar — Data Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="Mohammed Abbakar — Data Analyst & Business Intelligence. SQL, Power BI, Python, Tableau." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Manrope:wght@300;400;500;600;700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- =========================================================
+       Custom cursor (desktop only)
+       ========================================================= -->
+  <div class="cursor-dot"   aria-hidden="true"></div>
+  <div class="cursor-ring"  aria-hidden="true"></div>
+
+  <!-- =========================================================
+       Sticky Header
+       ========================================================= -->
+  <header class="site-header" id="siteHeader">
+    <a href="#hero" class="brand">
+      <span class="brand-dot"></span>
+      <span class="brand-text">M.ABBAKAR</span>
+    </a>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#about"      class="nav-link t" data-en="About"       data-fr="Profil">About</a>
+      <a href="#skills"     class="nav-link t" data-en="Skills"      data-fr="Compétences">Skills</a>
+      <a href="#projects"   class="nav-link t" data-en="Projects"    data-fr="Projets">Projects</a>
+      <a href="#experience" class="nav-link t" data-en="Experience"  data-fr="Expérience">Experience</a>
+      <a href="#contact"    class="nav-link t" data-en="Contact"     data-fr="Contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="lang-btn" id="langBtn" type="button">🇫🇷 FR</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       HERO — Editorial layout (Emily Johnson inspired)
+       ========================================================= -->
+  <section class="hero" id="hero">
+    <div class="hero-card">
+
+      <!-- Top-left: Name -->
+      <div class="hero-name">
+        <span class="hero-name-line">M O H A M M E D</span>
+        <span class="hero-name-line">A B B A K A R</span>
+      </div>
+
+      <!-- Top-right area: photo + stats -->
+      <div class="hero-photo">
+        <span class="hero-badge t" data-en="2024 — 2026" data-fr="2024 — 2026">2024 — 2026</span>
+        <img src="assets/images/portrait-cutout.png" alt="Mohammed Abbakar" />
+        <!-- Floating data icons -->
+        <span class="float-icon float-icon-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3,17 9,11 13,15 21,7"/><polyline points="14,7 21,7 21,14"/></svg>
+        </span>
+        <span class="float-icon float-icon-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+        </span>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat stat-lilac">
+          <span class="stat-value">2<small>+ <em>YRS</em></small></span>
+          <span class="stat-label t" data-en="Generali Apprenticeship" data-fr="Alternance Generali">Generali Apprenticeship</span>
+        </div>
+        <div class="stat stat-amber">
+          <span class="stat-value">10<small>+</small></span>
+          <span class="stat-label t" data-en="Power BI Dashboards" data-fr="Tableaux Power BI">Power BI Dashboards</span>
+        </div>
+      </div>
+
+      <!-- Decorative arrow -->
+      <div class="hero-arrow" aria-hidden="true">
+        <svg viewBox="0 0 100 80" fill="none">
+          <defs>
+            <linearGradient id="arrGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#DD5E2E"/>
+              <stop offset="100%" stop-color="#7B6BB0"/>
+            </linearGradient>
+          </defs>
+          <path d="M 5 8 Q 50 5 75 35 Q 88 55 60 70" stroke="url(#arrGrad)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M 52 62 L 60 70 L 68 60" stroke="url(#arrGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </div>
+
+      <!-- Bottom: Big title + CTA -->
+      <div class="hero-title">
+        <h1 class="big-title">
+          <span class="word"><span>DATA</span></span>
+          <span class="word"><span>ANALYST</span></span>
+        </h1>
+        <p class="hero-subtitle t"
+          data-en="Business Intelligence &amp; Decision Support"
+          data-fr="Business Intelligence &amp; Aide à la Décision">
+          Business Intelligence &amp; Decision Support
+        </p>
+      </div>
+
+      <div class="hero-cta-row">
+        <a href="#contact" class="btn btn-primary t" data-en="Get in Touch" data-fr="Me Contacter">
+          <span>Get in Touch</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#projects" class="btn btn-ghost t" data-en="View Work" data-fr="Voir Projets">View Work</a>
+      </div>
+
+      <!-- Meta strip -->
+      <div class="hero-meta">
+        <div class="meta-left">
+          <span class="t" data-en="Available for alternance" data-fr="Disponible pour alternance">Available for alternance</span>
+          <span class="dot"></span>
+          <span>Master 2026 — 2027</span>
+        </div>
+        <div class="meta-right">
+          <span>SQL</span><span>Power BI</span><span>Python</span><span>Tableau</span><span>DAX</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       ABOUT
+       ========================================================= -->
+  <section class="about section" id="about">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-dot"></span>
+        <span class="t" data-en="01 — About" data-fr="01 — Profil">01 — About</span>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title t"
+            data-en="A data analyst who loves turning numbers into clear, actionable stories."
+            data-fr="Un data analyst qui transforme les chiffres en histoires claires et actionnables.">
+            A data analyst who loves turning numbers into clear, actionable stories.
+          </h2>
+
+          <p class="t"
+            data-en="Currently completing a two-year Data Analyst Apprenticeship at <strong>Generali France</strong> through OpenClassrooms (2024–2026), I work daily on data collection, preparation, analysis and visualization — including Power BI dashboards used by the entire team and management for operational decision-making."
+            data-fr="Actuellement en alternance chez <strong>Generali France</strong> via OpenClassrooms (2024–2026), je travaille quotidiennement sur la collecte, la préparation, l'analyse et la visualisation de données — notamment des tableaux de bord Power BI utilisés par toute l'équipe et la direction pour le pilotage opérationnel.">
+            Currently completing a two-year Data Analyst Apprenticeship at <strong>Generali France</strong> through OpenClassrooms (2024–2026), I work daily on data collection, preparation, analysis and visualization — including Power BI dashboards used by the entire team and management for operational decision-making.
+          </p>
+
+          <p class="t"
+            data-en="With a background spanning Physics &amp; Mathematics, web development, and data analytics, I bring both technical rigor and analytical thinking to every project."
+            data-fr="Fort d'un parcours alliant Physique &amp; Mathématiques, développement web et data analytics, j'apporte rigueur technique et esprit analytique à chaque projet.">
+            With a background spanning Physics &amp; Mathematics, web development, and data analytics, I bring both technical rigor and analytical thinking to every project.
+          </p>
+
+          <div class="about-tags">
+            <span class="tag tag-orange">📍 Vanves, Île-de-France</span>
+            <span class="tag tag-lilac">🎓 OpenClassrooms × Generali</span>
+            <span class="tag tag-amber">🌍 Arabic · French · English</span>
+          </div>
+        </div>
+
+        <div class="about-aside">
+          <div class="aside-block">
+            <span class="aside-label t" data-en="Currently" data-fr="Actuellement">Currently</span>
+            <span class="aside-value t" data-en="Apprentice @ Generali" data-fr="Alternance @ Generali">Apprentice @ Generali</span>
+          </div>
+          <div class="aside-block">
+            <span class="aside-label t" data-en="Looking for" data-fr="Je cherche">Looking for</span>
+            <span class="aside-value t" data-en="Master's Alternance 2026" data-fr="Alternance Master 2026">Master's Alternance 2026</span>
+          </div>
+          <div class="aside-block">
+            <span class="aside-label t" data-en="Best at" data-fr="Mes points forts">Best at</span>
+            <span class="aside-value">Power BI · DAX · SQL</span>
+          </div>
+          <div class="aside-block">
+            <span class="aside-label t" data-en="Background" data-fr="Formation">Background</span>
+            <span class="aside-value t" data-en="B.Sc. Physics &amp; Maths" data-fr="Licence Physique &amp; Maths">B.Sc. Physics &amp; Maths</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SKILLS
+       ========================================================= -->
+  <section class="skills section" id="skills">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-dot"></span>
+        <span class="t" data-en="02 — Skills" data-fr="02 — Compétences">02 — Skills</span>
+      </div>
+
+      <h2 class="section-title-lg t"
+        data-en="The toolkit"
+        data-fr="La boîte à outils">
+        The toolkit
+      </h2>
+
+      <div class="skills-grid">
+        <div class="skill-cat">
+          <h3 class="t" data-en="Data &amp; BI" data-fr="Data &amp; BI">Data &amp; BI</h3>
+          <div class="skill-tags">
+            <span>SQL</span><span>Power BI</span><span>DAX</span><span>Power Query</span><span>Tableau</span><span>Excel</span>
+          </div>
+        </div>
+
+        <div class="skill-cat">
+          <h3 class="t" data-en="Programming" data-fr="Programmation">Programming</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>Pandas</span><span>NumPy</span><span>JavaScript</span><span>React.js</span><span>HTML/CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-cat">
+          <h3 class="t" data-en="Analytics &amp; Reporting" data-fr="Analyse &amp; Reporting">Analytics &amp; Reporting</h3>
+          <div class="skill-tags">
+            <span class="t" data-en="Data Analysis"   data-fr="Analyse de données">Data Analysis</span>
+            <span class="t" data-en="KPI Tracking"    data-fr="Suivi de KPIs">KPI Tracking</span>
+            <span class="t" data-en="Reporting"       data-fr="Reporting">Reporting</span>
+            <span class="t" data-en="Decision Support" data-fr="Aide à la décision">Decision Support</span>
+            <span class="t" data-en="Data Quality"    data-fr="Qualité des données">Data Quality</span>
+            <span class="t" data-en="Statistics"      data-fr="Statistiques">Statistics</span>
+          </div>
+        </div>
+
+        <div class="skill-cat">
+          <h3 class="t" data-en="Tools" data-fr="Outils">Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>GitHub</span><span>VS Code</span><span>Linux</span><span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PROJECTS
+       ========================================================= -->
+  <section class="projects section" id="projects">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-dot"></span>
+        <span class="t" data-en="03 — Selected Work" data-fr="03 — Projets">03 — Selected Work</span>
+      </div>
+
+      <h2 class="section-title-lg t"
+        data-en="Recent projects"
+        data-fr="Projets récents">
+        Recent projects
+      </h2>
+
+      <div class="project-list">
+
+        <article class="project-card project-card-1">
+          <div class="project-image">
+            <img src="assets/images/smart2.jpg" alt="Logistics Dashboard" loading="lazy"/>
+          </div>
+          <div class="project-content">
+            <span class="project-num">01</span>
+            <h3 class="t"
+              data-en="Dynamic Project Tracking Dashboard"
+              data-fr="Tableau de Bord Dynamique de Suivi de Projets">
+              Dynamic Project Tracking Dashboard
+            </h3>
+            <div class="project-tags">
+              <span>Power BI</span><span>Power Query</span><span>DAX</span><span>Visualization</span>
+            </div>
+            <p class="t"
+              data-en="A logistics dashboard giving a clear view of delays and their main causes, asset utilization, and the impact of traffic and weather on operations."
+              data-fr="Un tableau de bord logistique offrant une vue claire des retards et leurs causes, de l'utilisation des actifs, et de l'impact du trafic et de la météo.">
+              A logistics dashboard giving a clear view of delays and their main causes, asset utilization, and the impact of traffic and weather on operations.
+            </p>
+             <a href="https://github.com/MohammedABBAKAR/Smart-Logistics-Dashboard-Analyse-des-retards-logistiques"
+               target="_blank"
+               class="project-link t"
+               data-en="View live →"
+               data-fr="Voir en ligne →">View live →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-2">
+          <div class="project-image">
+            <img src="assets/images/smart.jpg" alt="Retail Sales Analysis" loading="lazy"/>
+          </div>
+          <div class="project-content">
+            <span class="project-num">02</span>
+            <h3 class="t"
+              data-en="Retail Sales Descriptive Analysis"
+              data-fr="Analyse Descriptive des Ventes Retail">
+              Retail Sales Descriptive Analysis
+            </h3>
+            <div class="project-tags">
+              <span>Power BI</span><span>DAX</span><span>Cohort Analysis</span><span>KPI</span>
+            </div>
+            <p class="t"
+              data-en="Interactive dashboard analyzing retail performance across sales, profitability, discounts, returns, category &amp; product mix, customer behavior, time-based trends, and customer retention via cohort analysis."
+              data-fr="Tableau interactif analysant la performance retail à travers les ventes, la rentabilité, les remises, les retours, le mix produit, le comportement client, les tendances temporelles, et la fidélisation par analyse de cohorte.">
+              Interactive dashboard analyzing retail performance across sales, profitability, discounts, returns, category &amp; product mix, customer behavior, time-based trends, and customer retention via cohort analysis.
+            </p>
+             <a href="https://github.com/MohammedABBAKAR/Retail-Sales-Supply-Chain-Descriptive-Analysis"
+               target="_blank"
+               class="project-link t"
+               data-en="View live →"
+               data-fr="Voir en ligne →">View live →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-3">
+          <div class="project-image">
+            <img src="assets/images/Design sans titre.jpg" alt="Pharma Sales Report" loading="lazy"/>
+          </div>
+          <div class="project-content">
+            <span class="project-num">03</span>
+            <h3 class="t"
+              data-en="Pharma Sales Profitability Report"
+              data-fr="Rapport de Rentabilité Pharmaceutique">
+              Pharma Sales Profitability Report
+            </h3>
+            <div class="project-tags">
+              <span>Power BI</span><span>DAX</span><span>Visualization</span><span>Strategy</span>
+            </div>
+            <p class="t"
+              data-en="Power BI dashboard exploring how revenue, volume and margin behave across countries, regions, pharmacies and product brands. Focus on regional gaps and the volume-vs-margin trade-off."
+              data-fr="Tableau Power BI explorant le comportement du chiffre d'affaires, du volume et de la marge selon les pays, régions, pharmacies et marques. Focus sur les écarts régionaux et l'arbitrage volume vs marge.">
+              Power BI dashboard exploring how revenue, volume and margin behave across countries, regions, pharmacies and product brands. Focus on regional gaps and the volume-vs-margin trade-off.
+            </p>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmQxYjFhNjItNGQ0Mi00ZmU0LWE3ZDItNWZmMjk0ZGJiYTg0IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9"
+               target="_blank"
+               class="project-link t"
+               data-en="View live →"
+               data-fr="Voir en ligne →">View live →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- =========================================================
+           MORE WORK — Mirror-style carousel
+           ========================================================= -->
+      <div class="more-work">
+        <div class="more-work-head">
+          <span class="more-work-label t" data-en="More Work" data-fr="Autres Projets">More Work</span>
+          <h3 class="more-work-title t"
+              data-en="Additional projects &amp; explorations"
+              data-fr="Projets &amp; explorations supplémentaires">
+            Additional projects &amp; explorations
+          </h3>
+        </div>
+
+        <div class="carousel" id="carousel">
+          <!-- Big background number -->
+          <span class="carousel-bignum" id="carouselBigNum" aria-hidden="true">04</span>
+
+          <!-- Slides track -->
+          <div class="carousel-track" id="carouselTrack">
+   <!-- Slide 04 — Projet Data Analyst / Chef de projet data – Mission Aéroworld -->
+            <article class="carousel-slide" data-num="04">
+              <div class="slide-image">
+                <img src="assets/images/david.jpg" alt="Projet Data Analyst / Chef de projet data – Mission Aéroworld" loading="lazy"/>
+              </div>
+              <div class="slide-meta">
+                <span class="slide-tag">Power BI</span>
+                <h4 class="slide-title t"
+                    data-en=" Projet Data Analyst /Data project manager – Aéroworld mission"
+                    data-fr="Projet Data Analyst / Chef de projet data – Mission Aéroworld">
+                  E-commerce Sales &amp; Channels Analytics
+                </h4>
+                <a href="#" class="slide-link t" data-en="View Case" data-fr="Voir le Cas">View Case</a>
+              </div>
+            </article>
+            <!-- Slide 05 — Chicken Market Study (Python, ACP, K-means) -->
+            <article class="carousel-slide" data-num="05">
+              <div class="slide-image">
+                <img src="assets/images/proj-chicken-market.jpg" alt="Poultry market segmentation" loading="lazy"/>
+              </div>
+              <div class="slide-meta">
+                <span class="slide-tag">Python</span>
+                <h4 class="slide-title t"
+                    data-en="International Market Segmentation — Poultry Export"
+                    data-fr="Segmentation de Marchés Internationaux — Export Volaille">
+                  International Market Segmentation — Poultry Export
+                </h4>
+                <a href="https://github.com/MohammedABBAKAR/R-alisez-une-tude-de-sant-publique-avec-Python" class="slide-link t" data-en="View Case" data-fr="Voir le Cas">View Case</a>
+              </div>
+            </article>
+
+            <!-- Slide 06 — Public Health Study (Python, FAO) -->
+            <article class="carousel-slide" data-num="06">
+              <div class="slide-image">
+                <img src="assets/images/proj-public-health.jpg" alt="Public health data analysis" loading="lazy"/>
+              </div>
+              <div class="slide-meta">
+                <span class="slide-tag">Python</span>
+                <h4 class="slide-title t"
+                    data-en="Public Health Study — FAO Undernutrition Data"
+                    data-fr="Étude de Santé Publique — Données FAO">
+                  Public Health Study — FAO Undernutrition Data
+                </h4>
+                <a href="https://github.com/MohammedABBAKAR/R-alisez-une-tude-de-sant-publique-avec-Python" class="slide-link t" data-en="View Case" data-fr="Voir le Cas">View Case</a>
+              </div>
+            </article>
+
+            <!-- Slide 07 — Sales Performance Dashboard (Power BI, Larana) -->
+            <article class="carousel-slide" data-num="07">
+              <div class="slide-image">
+                <img src="assets/images/proj-sales-perf.png" alt="Sales performance dashboard" loading="lazy"/>
+              </div>
+              <div class="slide-meta">
+                <span class="slide-tag">Power BI</span>
+                <h4 class="slide-title t"
+                    data-en="Sales Performance Dashboard"
+                    data-fr="Tableau de Bord Performance Commerciale">
+                  Sales Performance Dashboard
+                </h4>
+                <a href="https://github.com/MohammedABBAKAR/Sales-Performance-Dashboard-Power-BI" class="slide-link t" data-en="View Case" data-fr="Voir le Cas">View Case</a>
+
+              </div>
+            </article>
+
+            <!-- Slide 08 — Sales Analysis Dashboard (Power BI, AG) -->
+            <article class="carousel-slide" data-num="08">
+              <div class="slide-image">
+                <img src="assets/images/proj-sales-analysis-1.png" alt="Sales analysis dashboard" loading="lazy"/>
+              </div>
+              <div class="slide-meta">
+                <span class="slide-tag">Power BI</span>
+                <h4 class="slide-title t"
+                    data-en="Multi-Region Sales Analysis Dashboard"
+                    data-fr="Tableau de Bord Ventes Multi-Régions">
+                  Multi-Region Sales Analysis Dashboard
+                </h4>
+                <a href="#" class="slide-link t" data-en="View Case" data-fr="Voir le Cas">View Case</a>
+              </div>
+            </article>
+
+            <!-- Slide 09 — E-commerce Analytics (Power BI) -->
+            <article class="carousel-slide" data-num="09">
+              <div class="slide-image">
+                <img src="assets/images/proj-ecommerce.png" alt="E-commerce analytics dashboard" loading="lazy"/>
+              </div>
+              <div class="slide-meta">
+                <span class="slide-tag">Power BI</span>
+                <h4 class="slide-title t"
+                    data-en="E-commerce Sales &amp; Channels Analytics"
+                    data-fr="Analytics E-commerce — Ventes &amp; Canaux">
+                  E-commerce Sales &amp; Channels Analytics
+                </h4>
+                <a href="#" class="slide-link t" data-en="View Case" data-fr="Voir le Cas">View Case</a>
+              </div>
+            </article>
+  <!-- Slide 10 — Optimisez la gestion des données d'une boutique  -->
+            <article class="carousel-slide" data-num="10">
+              <div class="slide-image">
+                <img src="assets/images/vin.jpg" alt="Optimisez la gestion des données d'une boutique " loading="lazy"/>
+              </div>
+              <div class="slide-meta">
+                <span class="slide-tag">Power BI</span>
+                <h4 class="slide-title t"
+                    data-en="Optimize a storefront’s data management"
+                    data-fr="Optimisez la gestion des données d'une boutique">
+                  E-commerce Sales &amp; Channels Analytics
+                </h4>
+                <a href="https://github.com/MohammedABBAKAR/Optimisez-la-gestion-des-donn-es-d-une-boutique-avec-Python" class="slide-link t" data-en="View Case" data-fr="Voir le Cas">View Case</a>
+              </div>
+            </article>
+           
+          </div>
+
+          <!-- Controls: arrow buttons -->
+          <button class="carousel-arrow carousel-prev" id="carouselPrev" aria-label="Previous project" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12"/>
+              <polyline points="12 19 5 12 12 5"/>
+            </svg>
+          </button>
+          <button class="carousel-arrow carousel-next" id="carouselNext" aria-label="Next project" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </button>
+
+          <!-- Pagination dots / progress -->
+          <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Project navigation"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       EXPERIENCE
+       ========================================================= -->
+  <section class="experience section" id="experience">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-dot"></span>
+        <span class="t" data-en="04 — Experience" data-fr="04 — Expérience">04 — Experience</span>
+      </div>
+
+      <h2 class="section-title-lg t"
+        data-en="Where I've worked"
+        data-fr="Mon parcours professionnel">
+        Where I've worked
+      </h2>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <span class="tl-year">2024 — 2026</span>
+            <span class="tl-status t" data-en="Current" data-fr="Actuel">Current</span>
+          </div>
+          <div class="tl-body">
+            <h3 class="t" data-en="Data Analyst Apprentice" data-fr="Data Analyst en Alternance">Data Analyst Apprentice</h3>
+            <p class="tl-company">Generali France</p>
+            <ul>
+              <li class="t"
+                data-en="Analysis of client data and billing/printing flows across thousands of records"
+                data-fr="Analyse des données clients et flux facturation/impression sur plusieurs milliers d'enregistrements">
+                Analysis of client data and billing/printing flows across thousands of records
+              </li>
+              <li class="t"
+                data-en="Daily production monitoring via SQL — tracking undelivered items and production gaps"
+                data-fr="Suivi quotidien de la production via SQL — plis non distribués et écarts de production">
+                Daily production monitoring via SQL — tracking undelivered items and production gaps
+              </li>
+              <li class="t"
+                data-en="Created and maintained Power BI dashboards used by the full team and management"
+                data-fr="Création et mise à jour de tableaux de bord Power BI utilisés par l'équipe et le management">
+                Created and maintained Power BI dashboards used by the full team and management
+              </li>
+              <li class="t"
+                data-en="Improved data reliability and standardized reporting for better decision-making"
+                data-fr="Amélioration de la fiabilité des données et standardisation du reporting">
+                Improved data reliability and standardized reporting for better decision-making
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <span class="tl-year">May 2023 — Aug 2023</span>
+          </div>
+          <div class="tl-body">
+            <h3 class="t" data-en="Front-End Developer Intern" data-fr="Stagiaire Développeur Front-End">Front-End Developer Intern</h3>
+            <p class="tl-company">Grafisk</p>
+            <ul>
+              <li class="t"
+                data-en="Developed responsive web interfaces using HTML, CSS, JavaScript and React.js"
+                data-fr="Développement d'interfaces web responsives en HTML, CSS, JavaScript et React.js">
+                Developed responsive web interfaces using HTML, CSS, JavaScript and React.js
+              </li>
+              <li class="t"
+                data-en="Integrated Figma mockups into functional UI components"
+                data-fr="Intégration de maquettes Figma en composants UI fonctionnels">
+                Integrated Figma mockups into functional UI components
+              </li>
+              <li class="t"
+                data-en="Improved user experience and interface readability"
+                data-fr="Amélioration de l'expérience utilisateur et de la lisibilité des interfaces">
+                Improved user experience and interface readability
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Education sub-section -->
+      <h3 class="education-title t" data-en="Education" data-fr="Formation">Education</h3>
+      <div class="education-list">
+        <div class="edu-card">
+          <span class="edu-icon">📊</span>
+          <div>
+            <strong class="t" data-en="Data Analyst Training" data-fr="Formation Data Analyst">Data Analyst Training</strong>
+            <span>OpenClassrooms · 2024 — 2026</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <span class="edu-icon">💻</span>
+          <div>
+            <strong class="t" data-en="Web &amp; Mobile Developer" data-fr="Développeur Web &amp; Mobile">Web &amp; Mobile Developer</strong>
+            <span>Simplon, France · 2023</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <span class="edu-icon">⚛️</span>
+          <div>
+            <strong class="t" data-en="B.Sc. Physics &amp; Mathematics" data-fr="Licence Physique &amp; Mathématiques">B.Sc. Physics &amp; Mathematics</strong>
+            <span>Sudan University of Science &amp; Tech · 2017</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CONTACT — Light business card (Edward Matthew, inverted)
+       ========================================================= -->
+  <section class="contact section" id="contact">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-dot"></span>
+        <span class="t" data-en="05 — Contact" data-fr="05 — Contact">05 — Contact</span>
+      </div>
+
+      <h2 class="section-title-lg t"
+        data-en="Let's talk."
+        data-fr="Parlons-en.">
+        Let's talk.
+      </h2>
+
+      <p class="contact-intro t"
+        data-en="Open to alternance opportunities for a Master's in Data Science / Data Analytics (2026 — 2027). Always happy to chat about data, dashboards, or just to say hi."
+        data-fr="Disponible pour une alternance dans le cadre d'un Master en Data Science / Data Analytics (2026 — 2027). Toujours partant pour discuter data, dashboards, ou simplement dire bonjour.">
+        Open to alternance opportunities for a Master's in Data Science / Data Analytics (2026 — 2027). Always happy to chat about data, dashboards, or just to say hi.
+      </p>
+
+      <!-- THE BUSINESS CARD -->
+      <div class="biz-card">
+        <div class="biz-disc"></div>
+
+        <div class="biz-photo">
+          <img src="assets/images/portrait-cutout.png" alt="Mohammed Abbakar" />
+        </div>
+
+        <div class="biz-info">
+          <span class="biz-firstname">MOHAMMED</span>
+          <hr class="biz-divider"/>
+          <span class="biz-lastname">ABBAKAR</span>
+          <span class="biz-role t" data-en="DATA ANALYST" data-fr="DATA ANALYST">D A T A &nbsp; · &nbsp; A N A L Y S T</span>
+        </div>
+
+        <div class="biz-contact">
+          <a href="tel:+330766144745" class="biz-line">
+            <span class="biz-label">P</span>
+            <span>+33 7 66 14 47 45</span>
+          </a>
+          <a href="mailto:mabbakar77@gmail.com" class="biz-line">
+            <span class="biz-label">E</span>
+            <span>mabbakar77@gmail.com</span>
+          </a>
+          <div class="biz-line">
+            <span class="biz-label">L</span>
+            <span>Vanves, 92170 — France</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social row -->
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/mohammed-abbakar-0b7905202/" target="_blank" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/MohammedABBAKAR" target="_blank" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23.96-.27 1.98-.4 3-.41 1.02.01 2.04.14 3 .41 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.58C20.56 21.8 24 17.31 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="mailto:mabbakar77@gmail.com" class="social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span>Email</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-dot"></span>
+        Mohammed Abbakar &nbsp;&middot;&nbsp; <span class="t" data-en="Data Analyst" data-fr="Data Analyst">Data Analyst</span>
+      </div>
+      <p class="footer-copy">
+        © 2026 &middot; <span class="t" data-en="Crafted with care in Île-de-France" data-fr="Conçu avec soin en Île-de-France">Crafted with care in Île-de-France</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="toTop" class="to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
