@@ -82,7 +82,7 @@ Planification du projet et répartition des étapes.
 ### 4. Carte mentale du projet
 Vision globale du portfolio et des livrables associés.
 
-![Carte mentale](assets/carte_mentale.png)
+![Carte mentale](https://www.figma.com/board/q5IaUyu90lSxDbzHhfh7TT/Untitled?node-id=0-1&t=NAsvVBXmt3i34ij7-1)
 
 ---
 
