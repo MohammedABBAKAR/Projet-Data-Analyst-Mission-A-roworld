@@ -168,7 +168,7 @@ Le fichier source contient :
 
 Guide de création de graphiques avec **Power BI** réalisé pour accompagner les utilisateurs dans la prise en main de l’outil.
 
-📄 [Consulter le guide](docs/Guide_creation_graphiques_PowerBI_Mohammed_Abbakar.pdf)
+📄 [Consulter le guide](portfolio-aeroworld/docs/Guide_creation_graphiques_PowerBI_Mohammed_Abbakar.pdf)
 
 ---
 
