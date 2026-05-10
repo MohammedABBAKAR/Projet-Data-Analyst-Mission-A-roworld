@@ -236,7 +236,7 @@ Le portfolio est conçu pour être publié via **GitHub Pages**.
 **Mohammed Abbakar**
 
 - GitHub : [Votre profil GitHub](https://github.com/votre-profil)
-- LinkedIn : [Votre LinkedIn]([https://linkedin.com/in/votre-profil](https://www.linkedin.com/in/mohammed-abbakar-0b7905202/))
+- LinkedIn : [Votre LinkedIn](https://www.linkedin.com/in/mohammed-abbakar-0b7905202/))
 - Email : mabbakar77@gmail.com
 
 ---
