@@ -68,7 +68,7 @@ Document d’analyse du besoin client Aéroworld.
 ### 2. Cahier des charges fonctionnel du portfolio
 Document de cadrage du projet portfolio.
 
-📄 [Consulter le cahier des charges](docs/Cahier_des_charges_portfolio_Mohammed_Abbakar.pptx)
+📄 [Consulter le cahier des charges](docs/Cahier_des_charges_portfolio_Mohammed_Abbakar.pdf)
 
 ---
 
