@@ -141,9 +141,8 @@ Ce tableau de bord présente mon profil à travers :
 - **Profil candidat – Analyse détaillée**
 
 #### Aperçus
-![Vue d’ensemble profil](powerbi/captures/profil_vue_ensemble.png)
-![Analyse détaillée profil](powerbi/captures/profil_analyse_detaillee.png)
-![Parcours géographique](powerbi/captures/map_parcours.png)
+![Vue d’ensemble profil](portfolio-aeroworld/docs/Profil candidat.png)
+
 
 #### Fichier Power BI
 📊 [Télécharger le fichier PBIX](powerbi/Profil_Candidat.pbix)
