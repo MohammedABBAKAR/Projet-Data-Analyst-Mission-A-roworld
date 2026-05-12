@@ -141,7 +141,7 @@ Ce tableau de bord présente mon profil à travers :
 - **Profil candidat – Analyse détaillée**
 
 #### Aperçus
-![Vue d’ensemble veille](portfolio-aeroworld/docs/Profil.png)
+![Vue d’ensemble veille](portfolio-aeroworld/docs/Profil2.pdf)
 
 
 
