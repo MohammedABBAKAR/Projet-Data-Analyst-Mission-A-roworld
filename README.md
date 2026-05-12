@@ -142,7 +142,7 @@ Ce tableau de bord présente mon profil à travers :
 
 #### Aperçus
 ![Vue d’ensemble veille](portfolio-aeroworld/docs/Profil.png)
-![Analyse détaillée veille](portfolio-aeroworld/docs/Profil.png)
+
 
 
 
