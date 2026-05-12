@@ -141,7 +141,9 @@ Ce tableau de bord présente mon profil à travers :
 - **Profil candidat – Analyse détaillée**
 
 #### Aperçus
-![Vue d’ensemble profil](portfolio-aeroworld/docs/Profil candidat.png)
+![Vue d’ensemble veille](portfolio-aeroworld/docs/Portfolio_Mohammed_Abbakar-1.pdf)
+![Analyse détaillée veille](portfolio-aeroworld/docs/Portfolio_Mohammed_Abbakar-1.pdf)
+
 
 
 #### Fichier Power BI
