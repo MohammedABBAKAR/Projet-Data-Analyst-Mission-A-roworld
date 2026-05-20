@@ -114,10 +114,11 @@ Ce tableau de bord permet de comparer plusieurs outils data selon :
 
 #### Aperçus
 ![Vue d’ensemble veille](portfolio-aeroworld/docs/Portfolio_Mohammed_Abbakar-1.pdf)
+
 ![Analyse détaillée veille](portfolio-aeroworld/docs/Portfolio_Mohammed_Abbakar-1.pdf)
 
 #### Fichier Power BI
-📊 [Télécharger le fichier PBIX](powerbi/Veille_Metier_Technologique.pbix)
+📊 [Télécharger le fichier PBIX](portfolio-aeroworld/docs/Portfolio_Mohammed_Abbakar.pbix)
 
 ---
 
