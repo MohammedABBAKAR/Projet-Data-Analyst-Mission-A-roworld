@@ -89,16 +89,11 @@ Vision globale du portfolio et des livrables associés.
 ### 5. Mock-ups
 Conception initiale des interfaces du portfolio et des tableaux de bord.
 
-#### Mock-up du portfolio
-![Mock-up portfolio](assets/mockup_portfolio.png)
-
 #### Mock-up dashboard veille métier et technologique
 ![Mock-up dashboard veille](portfolio-aeroworld/docs/Mock_up_dashboard.png)
 
 #### Mock-up dashboard profil candidat
 ![Mock-up dashboard profil](portfolio-aeroworld/docs/Mock_up_dashboard_profil.png)
-
-📄 [Consulter les mock-ups complets](docs/Mockups_portfolio_dashboards_Mohammed_Abbakar.pdf)
 
 ---
 
