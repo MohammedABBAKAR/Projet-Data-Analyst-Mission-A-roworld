@@ -173,7 +173,7 @@ Guide de création de graphiques avec **Power BI** réalisé pour accompagner le
 
 Une vidéo de formation a été réalisée pour expliquer la création d’une visualisation avec Power BI.
 
-🎥 [Lien vers la vidéo](video/lien_video_formation.txt)
+🎥 [Lien vers la vidéo]([video/lien_video_formation.txt](https://www.loom.com/share/2dd9630a9faa403487183426239bb228))
 
 > Remarque : le lien peut être remplacé par une URL YouTube, Loom ou OneDrive.
 
