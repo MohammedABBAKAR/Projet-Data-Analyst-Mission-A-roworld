@@ -93,7 +93,7 @@ Conception initiale des interfaces du portfolio et des tableaux de bord.
 ![Mock-up portfolio](assets/mockup_portfolio.png)
 
 #### Mock-up dashboard veille métier et technologique
-![Mock-up dashboard veille](assets/mockup_dashboard_veille.png)
+![Mock-up dashboard veille](portfolio-aeroworld/docs/Mock_up_dashboard.png)
 
 #### Mock-up dashboard profil candidat
 ![Mock-up dashboard profil](assets/mockup_dashboard_profil.png)
