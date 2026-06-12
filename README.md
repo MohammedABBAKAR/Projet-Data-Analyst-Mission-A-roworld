@@ -75,7 +75,7 @@ Document de cadrage du projet portfolio.
 ### 3. Organisation du projet – Gantt
 Planification du projet et répartition des étapes.
 
-📄 [Consulter le diagramme de Gantt](docs/Gantt_projet_portfolio_Mohammed_Abbakar.pdf)
+📄 [Consulter le diagramme de Gantt](https://app.clickup.com/90121699033/v/g/2kxuqzpt-432)
 
 ---
 
