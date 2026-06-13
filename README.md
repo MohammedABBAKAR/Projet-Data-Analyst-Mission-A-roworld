@@ -82,7 +82,7 @@ Planification du projet et répartition des étapes.
 ### 4. Carte mentale du projet
 Vision globale du portfolio et des livrables associés.
 
-![Carte mentale](portfolio-aeroworld/docs/carte.png)
+![Carte mentale](portfolio-aeroworld/docs/carte2.png)
 
 ---
 
