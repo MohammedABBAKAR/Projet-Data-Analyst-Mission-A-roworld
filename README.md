@@ -74,7 +74,7 @@ Document de cadrage du projet portfolio.
 
 ### 3. Organisation du projet – Gantt
 Planification du projet et répartition des étapes.
-![Carte mentale](portfolio-aeroworld/docs/carte2.png)
+![Carte mentale](portfolio-aeroworld/docs/Gantt.png)
 📄 [Consulter le diagramme de Gantt](https://app.clickup.com/90121699033/v/g/2kxuqzpt-432)
 
 ---
