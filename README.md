@@ -224,7 +224,7 @@ Cette visualisation permet d’apporter une dimension personnelle et internation
 Le portfolio est conçu pour être publié via **GitHub Pages**.
 
 ### Lien du site
-🔗 [Accéder au portfolio](https://votre-lien-github-pages-ici)
+🔗 [Accéder au portfolio](https://mohammedabbakar.github.io/My_portfolio2/)
 
 ---
 
