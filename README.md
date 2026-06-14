@@ -236,10 +236,3 @@ Le portfolio est conçu pour être publié via **GitHub Pages**.
 - LinkedIn : [Votre LinkedIn](https://www.linkedin.com/in/mohammed-abbakar-0b7905202/)
 - Email : mabbakar77@gmail.com
 
----
-
-## Remarques
-
-- Tous les documents de ce projet ont été réalisés dans un objectif pédagogique et professionnel.
-- Les données présentées sont fictives.
-- Ce dépôt vise à illustrer une démarche complète de consultant data junior à travers un cas métier structuré.
